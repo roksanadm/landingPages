@@ -1,0 +1,363 @@
+body{
+    width: auto;
+    height: auto;
+    left: 0;
+    top:0;
+    opacity: 1;
+    background: url(Background@1X.png);
+    display: grid;
+    
+
+}
+
+.logo{
+margin-left: 552px;
+margin-top: 50px;
+width: 156px;
+height:	46px;
+opacity:1;
+display: grid;
+
+
+}
+
+.banner{
+padding-left: 150px;
+margin-top:140px;
+width: 960px;
+height: 359px;
+opacity: 1;
+display: grid;
+
+}
+
+
+
+
+
+
+.bannerHolder{
+    left: 150px;
+    top: 140px;
+    width: 960px;
+    height: 330px;
+    opacity: 1;
+    display: grid;
+
+}
+
+
+
+
+
+.bannerShadow{
+
+    left: 156px;
+    top: 470px;
+    width: 947px;
+    height: 29px;
+    opacity: 0.8;
+    display: grid;
+
+}
+
+
+
+.register{
+    left:205px;
+    top	:520px;
+    width:338px;
+    height:235px;
+    opacity:1;
+    display: grid;
+
+
+}
+
+.register h1{
+    margin-left: 209px;
+    top: 520px;
+    width:114px;
+    height: 44px;
+    opacity	:1;
+    color: #FFFFFF;
+    font-family: 'PT Sans Narrow', sans-serif;    font-size:48;
+    text-align:left;
+    
+}
+.register p{
+margin-left:209px;
+top	:578px;
+width:334px;
+height:12px;
+opacity	:1;
+color:#9CA0A5;
+font-family	:Verdana;
+font-size:12px;
+text-align:left;
+}
+
+
+form {
+margin-left:205px;
+top:520px;
+width:338px;
+height:	235px;
+opacity:1;
+}
+
+#iconFN{
+background-image: url(User@1X.png);
+background-repeat: no-repeat;
+background-position: 0 50%;
+outline: none;
+padding-left: 25px;
+}
+
+#iconMail{
+background-image: url(Mail@1X.png);
+background-repeat: no-repeat;
+background-position: 0 50%;
+outline: none;
+padding-left: 25px;
+margin-top: 10px;
+}
+
+input{
+background-color: #2D333C;
+outline: none;
+margin-left:206px;
+top	:602px;
+width:301px;
+height:37px;
+opacity:1;
+}
+
+
+#element{
+background-color: #2D333C;
+margin-left:5px;
+margin-top:5px;
+width:17px;
+height:17px;
+opacity:1;
+}
+
+
+
+
+
+.chekedtext{
+margin-top:-20px;
+width:70px;
+height:10px;
+opacity:1;
+color: #9CA0A5;
+font-family:Verdana;
+font-size:12px;
+text-align:left;
+}
+
+.imgreg{
+margin-left:0px;
+margin-top:-120px;
+width:171px;
+height:9px;
+opacity:1;
+color:#9CA0A5;
+font-family:Verdana;
+font-size:11px;
+text-align:left;
+}
+
+
+a.button{
+
+margin-left:216px;
+top:7px;
+width:91px;
+height:37px;
+opacity:1;
+    position: relative;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    background:#404750 ;
+    box-shadow:
+     0 1px rgba(255,255,255,.2) inset,
+     0 3px 5px rgba(0,1,6,.5),
+     0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+  }
+  a.button:hover:not(:active) {
+    background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+  }
+  a.button:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+  }
+
+
+  .one{
+    margin-left:599px;
+    margin-top: -300px;
+    width:31px;
+    height:506px;
+    opacity:0.050980392156862744;
+    color:#000000;
+    display: grid;
+
+  }
+
+
+
+  
+
+
+  .two{
+    margin-left:631px;
+    margin-top:-500px;
+    width:31px;
+    height:455px;
+    opacity	:0.14901960784313725;
+    color:#000000;  
+    display: grid;
+
+  }
+
+
+  .login{
+    margin-left:531px;
+    margin-top	:-397px;
+    width:304px;
+    height:235px;
+    opacity:1;
+    display: grid;
+
+  }
+  .login h1{
+    margin-left: 209px;
+    top: 520px;
+    width:114px;
+    height: 44px;
+    opacity	:1;
+    color: #FFFFFF;
+    font-family: 'PT Sans Narrow', sans-serif;    font-size:48;
+    text-align:left;
+    
+}
+
+.login p{
+    margin-left:209px;
+    top	:578px;
+    width:334px;
+    height:12px;
+    opacity	:1;
+    color:#9CA0A5;
+    font-family	:Verdana;
+    font-size:12px;
+    text-align:left;
+    }
+
+  #iconUserInp{
+    background-image: url(User@1X.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    outline: none;
+    padding-left: 25px;
+    }
+    
+    #iconPassword{
+    background-image: url(Password@1X.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    outline: none;
+    padding-left: 25px;
+    margin-top: 10px;
+    }
+
+    #remember{
+margin-left:-33px;
+top	:718px;
+width:88px;
+height:10px;
+opacity:1;
+color:#9CA0A5;
+font-family	:Verdana;
+font-size:12px;
+text-align:left;
+}
+
+.rememberQuestion{
+    margin-left:0px;
+    margin-top	:-113px;
+    width:127px;
+    height:12px;
+    opacity	:1;
+    color:#9CA0A5;
+    font-family:Verdana;
+    font-size:11px;
+    text-align:	left;
+    display: grid;
+
+
+}
+
+.footer p{
+margin-left:551px;
+margin-top:200px;
+width:116px;
+height:11px;
+opacity	:1;
+color:#545F6E;
+font-family:Verdana;
+font-size:11px;
+text-align:center;
+}
+
+
+
+
+
+a.button2{
+margin-left:216px;
+top:7px;
+width:91px;
+height:37px;
+opacity:1;
+    position: relative;
+    display: inline-block;
+    font-size: 90%;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: .5em 1em;
+    outline: none;
+    background:#404750 ;
+    box-shadow:
+     0 1px rgba(255,255,255,.2) inset,
+     0 3px 5px rgba(0,1,6,.5),
+     0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+  }
+  a.button2:hover:not(:active) {
+    background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+  }
+  a.button2:active {
+    top: 1px;
+    background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+    box-shadow:
+     0 0 1px rgba(0,0,0,.5) inset,
+     0 2px 3px rgba(0,0,0,.5) inset,
+     0 1px 1px rgba(255,255,255,.1);
+  }
