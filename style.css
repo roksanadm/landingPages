@@ -7,8 +7,12 @@ body{
     background: url(Background@1X.png);
     display: grid;
     
-
 }
+
+.row{
+grid-template-rows: minmax(200px, auto);
+}
+
 
 .logo{
 margin-left: 552px;
